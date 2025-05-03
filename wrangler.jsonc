@@ -8,7 +8,7 @@
 	"main": "src/index.ts",
 	"compatibility_flags": [
 		"nodejs_compat"
-	  ],
+	],
 	"compatibility_date": "2025-05-03",
 	"observability": {
 		"enabled": true
