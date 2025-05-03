@@ -4,7 +4,7 @@
  */
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "pteroeggs-webhook-handler",
+	"name": "webhook-handler",
 	"main": "src/index.ts",
 	"compatibility_flags": [
 		"nodejs_compat"
