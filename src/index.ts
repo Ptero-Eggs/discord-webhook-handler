@@ -79,7 +79,7 @@ export default {
 			const messageContent = {
 				username: "GitHub",
 				avatar_url: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
-				content: `New commits to **[${EGG_REPOS[repository.full_name.toLowerCase()]}](${repository.url})** repository\n${commitMessages}`,
+				content: `New commits to **[${EGG_REPOS[repository.full_name.toLowerCase()]}](${repository.html_url})** repository\n${commitMessages}`,
 				allowed_mentions: {
 					parse: [],
 				},
